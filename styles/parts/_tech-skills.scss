@@ -1,0 +1,59 @@
+.tech-skills__title {
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+	color: #3f3f41;
+}
+
+.tech-skills__diagram {
+	border-left: 1px solid #bdbdbe;
+	border-bottom: 1px solid #bdbdbe;
+	font-size: 0;
+	line-height: 0;
+	padding-top: 5px;
+	width: 444px;
+}
+.tech-skills__item {
+	position: relative;
+	display: inline-block;
+	width: 51px;
+	margin-left: 12px;
+	background-color: $grey;
+	font-size: 1.4rem;
+	line-height: 1.5em;
+	vertical-align: bottom;
+	overflow: hidden;
+}
+.tech-skills__item:nth-of-type(odd) {
+	background-color: #b9d1f5;
+}
+.tech-skills__item:nth-of-type(1) {
+	height: 225px;
+}
+.tech-skills__item:nth-of-type(2) {
+	height: 189px;
+}
+.tech-skills__item:nth-of-type(3) {
+	height: 166px;
+}
+.tech-skills__item:nth-of-type(4) {
+	height: 208px;
+}
+.tech-skills__item:nth-of-type(5) {
+	height: 140px;
+}
+.tech-skills__item:nth-of-type(6) {
+	height: 189px;
+}
+.tech-skills__item:last-of-type{
+	height: 115px;
+	margin-right: 0;
+}
+.tech-skills__name {
+	position: absolute;
+	width: 115px;
+	left: -30px;
+	bottom: 62px;
+	color: #1b1b1b;
+	transform: rotate(-90deg);
+}

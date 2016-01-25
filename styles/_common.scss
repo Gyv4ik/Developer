@@ -1,0 +1,45 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $font-reg;
+    font-size: 1.4rem;
+    line-height: 1.7em;
+    margin: 0 auto;
+    color: $main-color;
+    background:
+    linear-gradient(
+    white, transparent 1px
+    ),
+    linear-gradient(
+    90deg,
+    white, transparent 1px
+    ),
+    linear-gradient(#ececed, #ececed);
+    background-size: 10px 10px;
+    background-position: center center;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    font-family: $font-reg;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

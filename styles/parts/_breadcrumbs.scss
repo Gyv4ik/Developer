@@ -1,0 +1,30 @@
+.breadcrumbs {
+	font-size: 0;
+	line-height: 0;
+	text-align: right;
+}
+.breadcrumbs__item {
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 1.4rem;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	background: url("images/drop.png") center no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+.breadcrumbs__item:first-of-type {
+	margin-left: 0px;
+}
+.breadcrumbs__item:hover {
+	background: url("images/drop-active.png") center no-repeat;
+}
+.breadcrumbs__link {
+	display: table-cell;
+	width: 74px;
+	height: 71px;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+}

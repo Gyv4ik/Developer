@@ -1,0 +1,29 @@
+.help {
+	width: 100%;
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 52px;
+}
+.help__title {
+	margin-bottom: 37px;
+	padding-left: 330px;
+}
+.help__services,
+.help__photo {
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 1.7em;
+	vertical-align: top;
+}
+.help__services {
+	text-transform: uppercase;
+}
+.help__item {
+	margin-bottom: 7px;
+}
+.help__item:last-of-type {
+	margin-bottom: 0;
+}
+.help__photo {
+	margin: -55px 14px 0 67px;
+}

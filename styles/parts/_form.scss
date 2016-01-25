@@ -1,0 +1,53 @@
+.form {
+	padding: 0;
+	margin-top: 0;
+	font-size: 0;
+	line-height: 0;
+	width: 100%;
+}
+.form__title {
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	line-height: 1.7em;
+}
+.form__col {
+	display: inline-block;
+	vertical-align: bottom;
+}
+.form__col:first-of-type {
+	width: 78%;
+	margin-right: 3%;
+}
+.form__item {
+	font-size: 1.3rem;
+	line-height: 1.1em;
+}
+input {
+	padding: 6px 10px;
+	margin-bottom: 19px;
+	width: 100%;
+}
+
+input[type="email"] {
+	margin-bottom: 16px;
+}
+
+input[type="submit"] {
+	// position: absolute;
+	bottom: 8px;
+	right: 38px;
+	height: 48px;
+	width: 51px;
+	border: none;
+	background: url("images/drop-small.png") center no-repeat;
+	margin: 0;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+textarea {
+	height: 125px;
+	resize: none;
+	padding: 10px;
+	width: 100%;
+}

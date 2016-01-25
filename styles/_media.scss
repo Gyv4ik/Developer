@@ -1,0 +1,166 @@
+@media screen and (max-width: 1023px) {
+	.page-title__name,
+	.page-title__prof {
+		font-size: 5.5rem;
+	}
+	.breadcrumbs__item {
+		margin-left: 6px;
+	}
+	.section__title {
+		font-size: 4.5rem;
+	}
+	.tech-skills__diagram {
+		width: 318px;
+	}
+	.tech-skills__item {
+		width: 33px;
+	}
+	.tech-skills__name {
+		left: -38px;
+	}
+    .technology__title {
+        margin-bottom: 5px;
+    }
+	.technology__item {
+		margin-right: 40px;
+	}
+	.technology__row:first-of-type {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .slider__page {
+    	height: 420px;
+    }
+    .help__title {
+    	padding-left: 290px;
+    }
+    .help__photo {
+		margin-left: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    html {
+        font-size: 10px;
+    }
+    .page-wrapper {
+    	position: relative;
+        padding: 20px;
+    }
+    .page-row,
+    .page-row:nth-of-type(2) {
+        margin: 0;
+    }
+    .section {
+        float: none;
+
+        width: 100%;
+        margin-bottom: 56px;
+        padding: 0;
+    }
+    .section__title {
+        font-size: 5rem;
+
+        text-align: center;
+    }
+    .section__paragraph {
+    	margin-bottom: 10px;
+    }
+    .section__paragraph:last-of-type {
+    	margin-top: -10px;
+    }
+    .nav {
+		position: absolute;
+		right: 1.5%;
+		top: 20px;
+    }
+    .breadcrumbs__item {
+        margin-left: 5px;
+    }
+    .page-title {
+    	display: table-cell;
+    	border: none;
+    	width: 1%; //костыль
+    	height: 100vh;
+    	min-height: 400px;
+    	vertical-align: middle;
+    }
+    .page-title__name,
+    .page-title__prof {
+    	line-height: 1em;
+    	text-align: center;
+        font-size: 5.5rem;
+    }
+    .work-list__link {
+        padding-left: 15px;
+    }
+    .slider {
+    	padding: 0 10px;
+    }
+    .slider__page {
+		height: 360px;
+    }
+    .slider::before {
+    	left: -15px;
+    }
+    .slider::after {
+		right: -15px;
+    }
+    .skills__tech-skills {
+        margin-bottom: 36px;
+    }
+    .technology__title {
+        margin-bottom: 20px;
+    }
+    .technology__row {
+        width: 100%;
+
+        text-align: center;
+    }
+    .technology__item {
+        margin-right: 10%;
+    }
+    .tech-skills__diagram {
+		width: 280px;
+		margin: 0 auto;
+    }
+    .tech-skills__item {
+        width: 27px;
+    }
+    .tech-skills__name {
+		left: -44px;
+    }
+    .contacts__item {
+    	text-align: center;
+    }
+    .contacts__info {
+    	width: 100%;
+    }
+    .section__subtitle {
+    	text-align: center;
+        font-size: 1.6rem;
+    }
+    .help__title {
+        padding: 0;
+    }
+    .help__services,
+    .help__photo {
+        width: 100%;
+        margin: 0 auto;
+
+        text-align: center;
+    }
+    .footer {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+	html {
+		font-size: 8px;
+	}
+    .slider__image {
+        margin-left: 43%;
+    }
+
+}

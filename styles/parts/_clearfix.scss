@@ -1,0 +1,12 @@
+.clearfix:before {
+    display: table;
+
+    content: '';
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+
+    content: '';
+}

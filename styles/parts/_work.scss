@@ -1,0 +1,32 @@
+.work {
+	float: left;
+	padding-left: 28px;
+	padding-right: 0;
+}
+.work__title {
+	margin: 34px 0 41px 0;
+}
+.work-list {
+	text-transform: uppercase;
+}
+.work-list__item {
+	margin-bottom: 14px;
+	padding: 0;
+}
+.work-list__item:last-of-type {
+	margin-bottom: 0;
+}
+.work-list__link {
+	display: block;
+	position: relative;
+	color: $main-color;
+	padding-left: 10px;
+}
+.work-list__link::before {
+	position: absolute;
+	content: url("images/list-arrow.png");
+	left: 0;
+}
+.work-list__link:hover {
+	color: $link-color;
+}

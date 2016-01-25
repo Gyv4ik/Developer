@@ -1,0 +1,28 @@
+.technology {
+	font-size: 0;
+	line-height: 0;
+}
+.technology__title {
+	text-transform: uppercase;
+	color: #3f3f41;
+	font-weight: normal;
+	line-height: 1.7em;
+	margin-bottom: 50px;
+}
+.technology__row {
+	display: inline-block;
+}
+.technology__row:first-of-type {
+	margin-right: 20px;
+}
+.technology__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 21px;
+}
+.technology__item:last-of-type {
+	margin-right: 0;
+}
+.technology__logo {
+	max-width: 100%;
+}

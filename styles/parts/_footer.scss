@@ -1,0 +1,30 @@
+.footer {
+	text-align: center;
+	width: 100%;
+}
+.footer__row {
+	margin-bottom: 12px;
+}
+.footer__go-top {
+	float: right;
+	text-transform: uppercase;
+	color: #fff;
+	background: url("images/drop-small.png") center no-repeat;
+}
+.footer__link {
+	display: table-cell;
+	height: 48px;
+	width: 51px;
+	font-size: 1.3rem;
+	vertical-align: middle;
+	color: #fff;
+}
+.footer__line {
+	height: 1px;
+	background-color: #c7c7c8;
+	margin-bottom: 23px;
+}
+.footer__copyright {
+	font-weight: 300;
+	font-size: 1.2rem;
+}
